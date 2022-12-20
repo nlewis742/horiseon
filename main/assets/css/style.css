@@ -32,7 +32,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
- /* do we need this line? */
+ /* header */
 .header nav ul {
     list-style-type: none;
 }
@@ -51,7 +51,7 @@ p {
     font-size: 16px;
 }
 
-/*defines features of picture */
+/* defines features of subheader picture */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,8 +60,6 @@ p {
     background-position: center;
 }
 
-
-/* not used? */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -78,6 +76,7 @@ p {
     margin-left: 20px;
 }
 
+/* styling for aside */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -89,23 +88,24 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead, .benefit-brand, .benefit-cost {
+.benefit-sec {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+.benefit-sec h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img, .benefit-brand img, .benefit-cost img {
+.benefit-sec img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+/* styling for main sections */
+.main-sec {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -114,15 +114,14 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
-    max-height: 200px;
+.main-sec img {    max-height: 200px;
 }
 
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
-    margin-bottom: 20px;
+.main-sec h2 {    margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* footer */
 .footer {
     padding: 30px;
     clear: both;
