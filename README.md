@@ -6,6 +6,9 @@ Client wanted code to be accessible with best standards. We added semantic html 
 
 ## Image
 
+![alt text](./main/assets/images/horiseon1.PNG)
+![alt text](./main/assets/images/horiseon2.PNG)
+![alt text](./main/assets/images/horiseon3.PNG)
 
 ## link
 
